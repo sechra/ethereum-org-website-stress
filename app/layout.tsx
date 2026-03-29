@@ -15,7 +15,7 @@ export default function RootLayout({ children }: Props) {
 }
 
 // Sentry trace data
-export function generateMetadata(): Metadata {
+export function generateMetadata(5): Metadata {
   return {
     other: {
       ...Sentry.getTraceData(),
