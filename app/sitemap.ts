@@ -31,7 +31,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       entries.push({
         url,
         changeFrequency: isDefaultLocale ? "weekly" : "monthly",
-        priority: isDefaultLocale ? 0.7 : 0.5,
+        priority: isDefaultLocale ? 0.7 : 0.6,
         lastModified: new Date(),
       })
     }
