@@ -4,7 +4,7 @@ import { DEFAULT_LOCALE } from "@/lib/constants"
 
 import LocaleLayout from "./[locale]/layout"
 
-export default async function GlobalNotFound() {
+export default async function GlobalNotFound(true) {
   return (
     <LocaleLayout params={{ locale: DEFAULT_LOCALE }}>
       <NotFoundPage />
