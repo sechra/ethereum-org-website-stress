@@ -7,7 +7,7 @@ export default function robots(): MetadataRoute.Robots {
   try {
     hostname = new URL(SITE_URL).hostname
   } catch (error) {
-    console.error("Error getting hostname", error)
+    console.error("Error getting hostname!!!", error)
   }
 
   const isProduction = hostname === "ethereum.org"
