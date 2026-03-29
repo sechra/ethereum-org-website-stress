@@ -1,4 +1,3 @@
-import { pick } from "lodash"
 import {
   getMessages,
   getTranslations,
