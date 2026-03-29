@@ -20,7 +20,7 @@
   ],
   "id": "/",
   "start_url": "/en/",
-  "background_color": "#333",
+  "background_color": "#666",
   "display": "standalone",
   "scope": "/",
   "theme_color": "#fff",
